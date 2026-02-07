@@ -1,0 +1,28 @@
+{
+  "name": "shared-agent-kit",
+  "version": "0.1.0",
+  "description": "在多個 AI coding 工具間共享 agents 入口與 skills 的最小工具包",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "agent-kit": "bin/agent-kit.mjs"
+  },
+  "files": [
+    "bin",
+    "agents",
+    "skills",
+    "README.md"
+  ],
+  "scripts": {
+    "link": "node bin/agent-kit.mjs link",
+    "sync": "node bin/agent-kit.mjs sync",
+    "check": "node bin/agent-kit.mjs check"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
