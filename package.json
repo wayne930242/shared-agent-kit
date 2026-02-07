@@ -1,7 +1,7 @@
 {
-  "name": "@wayne930242/shared-agent-kit",
+  "name": "@weihung1017/shared-agent-kit",
   "version": "0.1.0",
-  "description": "在多個 AI coding 工具間共享 agents 入口與 skills 的最小工具包",
+  "description": "A minimal toolkit to share agent entrypoints and skills across coding assistants",
   "private": false,
   "license": "MIT",
   "type": "module",
